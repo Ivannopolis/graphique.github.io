@@ -1,0 +1,47 @@
+:root {
+    --CRed: rgb(252, 228, 212);
+    --CVert: rgb(220, 244, 212);
+
+    --CBleu: rgb(204, 236, 252);
+
+
+}
+
+body {
+    background-color: rgb(232, 228, 228);
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.boule {
+    width: 100%;
+}
+
+.boule h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Av {
+    background-color: var(--CVert);
+}
+
+.In {
+    background-color: var(--CRed);
+}
+
+.Eq {
+    background-color: var(--CBleu);
+}
+
+.titre h1 {
+    text-decoration-line: underline;
+    font-size: 44px;
+    text-align: center;
+}
